@@ -1,0 +1,50 @@
+{
+    "invoiceId": "870c576c-c1fb-44ca-a034-91ab382c9762",
+    "user": {
+        "userId": "5a8ca3de-b202-48a3-aa52-6c8406021c36",
+        "userFirstName": "John",
+        "userLastName": "Doe",
+        "userType": "affiliate"
+    },
+    "items": [
+        {
+            "product": {
+                "productId": "2657765a-a4f8-47eb-9880-148b41063ccc",
+                "productName": "Product1",
+                "productLabel": "ProductLabel1",
+                "productDescription": "",
+                "unitPrice": 200.0,
+                "productType": {
+                    "typeId": 1,
+                    "typeDescription": "non-grocery",
+                    "isDiscountApplicable": true
+                },
+                "discountAvailable": true
+            },
+            "noOfUnits": 5,
+            "unitPrice": 200.0
+        },
+        {
+            "product": {
+                "productId": "15e63c30-e490-44a0-b94b-2591a1a5461b",
+                "productName": "Product2",
+                "productLabel": "ProductLabel2",
+                "productDescription": "",
+                "unitPrice": 150.0,
+                "productType": {
+                    "typeId": 2,
+                    "typeDescription": "grocery",
+                    "isDiscountApplicable": false
+                },
+                "discountAvailable": false
+            },
+            "noOfUnits": 8,
+            "unitPrice": 150.0
+        }
+    ],
+    "totalAmount": 2200.0,
+    "percentageDiscountAmount": 100.0,
+    "flatDiscountAmount": 105.0,
+    "totalDiscountAmount": 205.0,
+    "netPayableAmount": 1995.0
+}
