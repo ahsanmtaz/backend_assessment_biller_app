@@ -1,0 +1,18 @@
+POST http://localhost:8080/biller/discounts/apply
+
+Request Body:
+
+{
+    "userId": "5a8ca3de-b202-48a3-aa52-6c8406021c36",
+    "invoiceId": "870c576c-c1fb-44ca-a034-91ab382c9762",
+    "items": [
+        {
+            "productId": "2657765a-a4f8-47eb-9880-148b41063ccc", // discount applicable
+            "noOfUnits": 5
+        },
+        {
+            "productId": "15e63c30-e490-44a0-b94b-2591a1a5461b",  // discount not-applicable
+            "noOfUnits": 8
+        }
+    ]
+}
